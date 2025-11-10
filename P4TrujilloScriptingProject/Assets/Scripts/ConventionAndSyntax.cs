@@ -1,22 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class ConventionAndSyntax : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
-        //this line is there tti ttell me the x position of the object
+        //this line is there to tell me the x position of the object
+
+        /*Hi there!
+         * this is two lines!
+         * */
         Debug.Log(transform.position.x);
-
-
     }
-
-    // Update is called once per frame
     void Update()
-    {
-        if (transform.position.y > 5f)
+    { 
+        if (transform.position.y <= 5f)
         {
             Debug.Log("I'm about to hit the ground");
         }
