@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ForLoops : MonoBehaviour
 {
-     int numEnemies = 3;
+    public int numEnemies = 3;
 
 
      void Start()
